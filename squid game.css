@@ -1,0 +1,101 @@
+body {
+    background: url("squid game.jpg");
+    overflow-y: hidden;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.cont {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: -70px;
+    /* top: 50%;
+    transform: translateY(-50%); */
+}
+
+P21 {
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: 1rem;
+    text-align: center;
+    color: orange;
+    background-color: transparent;
+}
+
+.p20 {
+    text-align: center;
+}
+
+p20 {
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+}
+
+.start {
+    width: 200px;
+    height: 100vh;
+    background-color: transparent;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+}
+
+.start p {
+    font-size: 3rem;
+    position: absolute;
+    top: 47%;
+    color: white;
+    font-family: cursive;
+    font-weight: bolder;
+    transform: translateY(-42%);
+    transform: rotate(270deg);
+}
+
+.finish p {
+    font-size: 3rem;
+    position: absolute;
+    top: 47%;
+    color: white;
+    font-family: cursive;
+    font-weight: bolder;
+    transform: translateY(-42%);
+    /* transform: rotate(270deg); */
+    transform: rotate(90deg);
+}
+
+.finish {
+    width: 200px;
+    height: 100vh;
+    background-color: transparent;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.track {
+    width: 100%;
+    margin-top: 8px;
+    padding: 0 10px;
+    /* height: 80px; */
+}
+
+.track input {
+    width: 70px;
+    height: 80px;
+    margin: 0 4px;
+    background-color: rgb(1, 114, 114);
+    border-width: 6px;
+    border-color: rgb(172, 158, 158);
+    font-weight: bold;
+    font-family: cursive;
+}
